@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B95678F3-9333-4970-8705-0DD8225813A3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ESEMKA_Airlines.My.MyApplication</StartupObject>
+    <RootNamespace>ESEMKA_Airlines</RootNamespace>
+    <AssemblyName>ESEMKA Airlines</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ESEMKA Airlines.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ESEMKA Airlines.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Control.vb" />
+    <Compile Include="frmAddFlightScheduling.Designer.vb">
+      <DependentUpon>frmAddFlightScheduling.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddFlightScheduling.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddInFlightMealManagement.Designer.vb">
+      <DependentUpon>frmAddInFlightMealManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddInFlightMealManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddPlaneManagement.Designer.vb">
+      <DependentUpon>frmAddPlaneManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddPlaneManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBoarding.Designer.vb">
+      <DependentUpon>frmBoarding.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBoarding.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChekIn.Designer.vb">
+      <DependentUpon>frmChekIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmChekIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDepartureConfirmation.Designer.vb">
+      <DependentUpon>frmDepartureConfirmation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDepartureConfirmation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditFlightScheduling.Designer.vb">
+      <DependentUpon>frmEditFlightScheduling.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditFlightScheduling.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditInFlightMealManagement.Designer.vb">
+      <DependentUpon>frmEditInFlightMealManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditInFlightMealManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditPlaneManagement.Designer.vb">
+      <DependentUpon>frmEditPlaneManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditPlaneManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFlightBooking.Designer.vb">
+      <DependentUpon>frmFlightBooking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFlightBooking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFlightScheduling.Designer.vb">
+      <DependentUpon>frmFlightScheduling.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFlightScheduling.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInFlightMealManagement.Designer.vb">
+      <DependentUpon>frmInFlightMealManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInFlightMealManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInFlightMealOrder.Designer.vb">
+      <DependentUpon>frmInFlightMealOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInFlightMealOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInformationBroadcast.Designer.vb">
+      <DependentUpon>frmInformationBroadcast.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInformationBroadcast.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPlaneManagement.Designer.vb">
+      <DependentUpon>frmPlaneManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlaneManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSeatAvailability.Designer.vb">
+      <DependentUpon>frmSeatAvailability.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSeatAvailability.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTotalFee.Designer.vb">
+      <DependentUpon>frmTotalFee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTotalFee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAddFlightScheduling.resx">
+      <DependentUpon>frmAddFlightScheduling.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddInFlightMealManagement.resx">
+      <DependentUpon>frmAddInFlightMealManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddPlaneManagement.resx">
+      <DependentUpon>frmAddPlaneManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBoarding.resx">
+      <DependentUpon>frmBoarding.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChekIn.resx">
+      <DependentUpon>frmChekIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDepartureConfirmation.resx">
+      <DependentUpon>frmDepartureConfirmation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditFlightScheduling.resx">
+      <DependentUpon>frmEditFlightScheduling.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditInFlightMealManagement.resx">
+      <DependentUpon>frmEditInFlightMealManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditPlaneManagement.resx">
+      <DependentUpon>frmEditPlaneManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFlightBooking.resx">
+      <DependentUpon>frmFlightBooking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFlightScheduling.resx">
+      <DependentUpon>frmFlightScheduling.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInFlightMealManagement.resx">
+      <DependentUpon>frmInFlightMealManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInFlightMealOrder.resx">
+      <DependentUpon>frmInFlightMealOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInformationBroadcast.resx">
+      <DependentUpon>frmInformationBroadcast.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPlaneManagement.resx">
+      <DependentUpon>frmPlaneManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSeatAvailability.resx">
+      <DependentUpon>frmSeatAvailability.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTotalFee.resx">
+      <DependentUpon>frmTotalFee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

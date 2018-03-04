@@ -1,0 +1,19 @@
+D:\Paket LKS 2014 IT Software\Latihan\LKS Nasional 2014\Modul 5\Esemka Airlines\Esemka Airlines\bin\Debug\Esemka Airlines.exe.config
+D:\Paket LKS 2014 IT Software\Latihan\LKS Nasional 2014\Modul 5\Esemka Airlines\Esemka Airlines\bin\Debug\Esemka Airlines.exe
+D:\Paket LKS 2014 IT Software\Latihan\LKS Nasional 2014\Modul 5\Esemka Airlines\Esemka Airlines\bin\Debug\Esemka Airlines.pdb
+D:\Paket LKS 2014 IT Software\Latihan\LKS Nasional 2014\Modul 5\Esemka Airlines\Esemka Airlines\bin\Debug\Esemka Airlines.xml
+D:\Paket LKS 2014 IT Software\Latihan\LKS Nasional 2014\Modul 5\Esemka Airlines\Esemka Airlines\obj\Debug\Esemka_Airlines.frmAddFlightScheduling.resources
+D:\Paket LKS 2014 IT Software\Latihan\LKS Nasional 2014\Modul 5\Esemka Airlines\Esemka Airlines\obj\Debug\Esemka_Airlines.frmAddInFlightMealManagement.resources
+D:\Paket LKS 2014 IT Software\Latihan\LKS Nasional 2014\Modul 5\Esemka Airlines\Esemka Airlines\obj\Debug\Esemka_Airlines.frmAddPlaneManagement.resources
+D:\Paket LKS 2014 IT Software\Latihan\LKS Nasional 2014\Modul 5\Esemka Airlines\Esemka Airlines\obj\Debug\Esemka_Airlines.frmEditFlightScheduling.resources
+D:\Paket LKS 2014 IT Software\Latihan\LKS Nasional 2014\Modul 5\Esemka Airlines\Esemka Airlines\obj\Debug\Esemka_Airlines.frmEditInFlightMealManagement.resources
+D:\Paket LKS 2014 IT Software\Latihan\LKS Nasional 2014\Modul 5\Esemka Airlines\Esemka Airlines\obj\Debug\Esemka_Airlines.frmEditPlaneManagement.resources
+D:\Paket LKS 2014 IT Software\Latihan\LKS Nasional 2014\Modul 5\Esemka Airlines\Esemka Airlines\obj\Debug\Esemka_Airlines.frmFlightScheduling.resources
+D:\Paket LKS 2014 IT Software\Latihan\LKS Nasional 2014\Modul 5\Esemka Airlines\Esemka Airlines\obj\Debug\Esemka_Airlines.frmInFlightMealManagement.resources
+D:\Paket LKS 2014 IT Software\Latihan\LKS Nasional 2014\Modul 5\Esemka Airlines\Esemka Airlines\obj\Debug\Esemka_Airlines.frmMain.resources
+D:\Paket LKS 2014 IT Software\Latihan\LKS Nasional 2014\Modul 5\Esemka Airlines\Esemka Airlines\obj\Debug\Esemka_Airlines.frmPlaneManagement.resources
+D:\Paket LKS 2014 IT Software\Latihan\LKS Nasional 2014\Modul 5\Esemka Airlines\Esemka Airlines\obj\Debug\Esemka_Airlines.Resources.resources
+D:\Paket LKS 2014 IT Software\Latihan\LKS Nasional 2014\Modul 5\Esemka Airlines\Esemka Airlines\obj\Debug\Esemka Airlines.vbproj.GenerateResource.Cache
+D:\Paket LKS 2014 IT Software\Latihan\LKS Nasional 2014\Modul 5\Esemka Airlines\Esemka Airlines\obj\Debug\Esemka Airlines.exe
+D:\Paket LKS 2014 IT Software\Latihan\LKS Nasional 2014\Modul 5\Esemka Airlines\Esemka Airlines\obj\Debug\Esemka Airlines.xml
+D:\Paket LKS 2014 IT Software\Latihan\LKS Nasional 2014\Modul 5\Esemka Airlines\Esemka Airlines\obj\Debug\Esemka Airlines.pdb
